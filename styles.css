@@ -1,0 +1,49 @@
+/* background colors #FB20B4 #FDFD45 #DD49D4 #0DD0D8 */
+
+
+body {
+    font-family:'Courier New', Courier, monospace ;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Header styling */
+
+header {
+    background-color: #0DD0D8 ;
+    margin: 0;
+    padding: 0;
+}
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 0%;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+a {
+    text-decoration: none;
+}
+.header-style {
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    list-style: none;
+    font-size: large;
+    border-style: solid;
+}
+header .header-button {
+    border-style: solid;
+    padding: 10px;
+}
+.button {
+    background-color: #DD49D4;
+    border-radius: 25px;
+}
